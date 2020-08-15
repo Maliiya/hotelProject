@@ -1,0 +1,10 @@
+@import "../../blocks/header/header.scss";
+
+$font-stack:   'Quicksand Bold', 'Montserrat', Helvetica, sans-serif;
+
+.page {
+  font: 100% $font-stack;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
