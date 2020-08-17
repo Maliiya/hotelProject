@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "name": "hotel-project",
+  "description": "Graduation Project, service where you can find hotel",
+  "icons": {
+    "60": "/assets/firefox_app_60x60.png",
+    "128": "/assets/firefox_app_128x128.png",
+    "512": "/assets/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Maria Terenteva",
+    "url": null
+  }
+}
