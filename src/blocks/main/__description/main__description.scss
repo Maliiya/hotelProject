@@ -1,0 +1,11 @@
+@import "../../mixins/montserrat-normal.scss";
+
+.main__description{
+  @include montserrat-normal;
+  max-width: 297px;
+  color: rgba(31, 32, 65, 0.75);
+  text-align: end;
+  margin-left: auto;
+  margin-right: 134px;
+  margin-top: 320px;
+}

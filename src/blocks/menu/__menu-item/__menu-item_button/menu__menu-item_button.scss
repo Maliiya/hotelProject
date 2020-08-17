@@ -1,0 +1,5 @@
+@import "../../../mixins/base-button.scss";
+
+.menu__menu-item_button{
+ @include base-button;
+}

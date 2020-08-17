@@ -1,0 +1,17 @@
+include ../mixins/navLink
+
+nav.menu
+  ul.menu__menu-items
+    +navLink("#","О нас")
+    +navLink("#","Услуги")
+    include ../img/expand-more.pug
+    +navLink("#","Вакансии")
+    +navLink("#","Новости")
+    +navLink("#","Соглашения")
+    include ../img/expand-more.pug
+    li.menu__menu-item
+      button.menu__menu-item.menu__menu-item_button.menu__menu-item_button_login Войти
+    li.menu__menu-item
+      button.menu__menu-item.menu__menu-item_button Зарегистрироваться
+
+

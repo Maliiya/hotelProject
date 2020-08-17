@@ -1,0 +1,6 @@
+@import "../../../mixins/montserrat-normal.scss";
+
+
+.menu__menu-item_link{
+  @include montserrat-normal;
+}

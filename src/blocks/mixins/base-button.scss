@@ -1,0 +1,12 @@
+@import "./montserrat-bold.scss";
+
+@mixin base-button{
+  @include montserrat-bold;
+  padding: 9px 20px 10px 20px;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  color: #FFFFFF;
+}

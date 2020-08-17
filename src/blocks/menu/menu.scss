@@ -1,0 +1,10 @@
+@import "./__menu-items/menu__menu-items.scss";
+@import "./__menu-item/menu__menu-item.scss";
+
+
+.menu{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  list-style: none;
+}

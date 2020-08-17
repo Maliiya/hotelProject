@@ -1,0 +1,9 @@
+@import "../../../../mixins/montserrat-bold.scss";
+
+.menu__menu-item_button_login{
+  @include montserrat-bold;
+  color: #BC9CFF;
+  background: white;
+  border-radius: 22px;
+  border: 1.5px solid #BC9CFF;
+}
