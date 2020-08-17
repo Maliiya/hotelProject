@@ -1,7 +1,7 @@
 {
   "name": "hotel-project",
   "short_name": "hotel-project",
-  "description": "Graduation Project, service where you can find hotel",
+  "description": "Project, service where you can find hotel",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
