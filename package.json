@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maliiya/hotelProject.git"
+    "url": "git+https://github.com/Maliiya/hotel-project.git"
   },
   "keywords": [
     "frontend",
@@ -19,9 +19,9 @@
   "author": "Maria Terenteva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maliiya/hotelProject/issues"
+    "url": "https://github.com/Maliiya/hotel-project/issues"
   },
-  "homepage": "https://github.com/Maliiya/hotelProject#readme",
+  "homepage": "https://github.com/Maliiya/hotel-project#readme",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",

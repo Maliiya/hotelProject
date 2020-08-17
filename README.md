@@ -1,3 +1,3 @@
-# hotelProject
+# hotel-project
 
-https://Maliiya.github.io/hotelProject/
+https://Maliiya.github.io/hotel-project/
