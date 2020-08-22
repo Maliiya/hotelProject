@@ -1,0 +1,7 @@
+@import "../../../mixins/quicksan-bold.scss";
+
+.search-field__title{
+  @include quicksan-bold;
+  max-width: 320px;
+  margin-bottom: 20px;
+}

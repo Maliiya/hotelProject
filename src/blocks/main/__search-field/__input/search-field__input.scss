@@ -1,0 +1,12 @@
+@import "../../../mixins/montserrat-normal.scss";
+
+.search-field__input{
+  @include montserrat-normal;
+  padding: 11px;
+  display: block;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: rgba(31, 32, 65, 0.75);
+  width: 100%;
+}

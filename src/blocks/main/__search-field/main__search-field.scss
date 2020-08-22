@@ -1,7 +1,18 @@
+@import "./__form/search-field__form.scss";
+@import "./__title/search-field__title.scss";
+@import "./__submit/search-field__submit.scss";
+@import "./__button-arrow-forward/search-field__button-arrow-forward.scss";
+@import "./__text/search-field__text.scss";
+@import "./__input/search-field__input.scss";
+
 .main__search-field{
   width:374px;
   height: 380px;
   background: white;
   margin-top: 70px;
   margin-left: 140px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }

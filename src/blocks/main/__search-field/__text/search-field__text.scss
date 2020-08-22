@@ -1,0 +1,17 @@
+@import "../../../mixins/montserrat-bold.scss";
+
+.search-field__text{
+  text-transform: uppercase;
+  @include montserrat-bold;
+  color: #1F2041;
+  display:inline-block;
+}
+
+.search-field__text:first-of-type{
+  margin-right: 20px;
+
+}
+
+.search-field__text:last-of-type{
+  width: 100%;
+}

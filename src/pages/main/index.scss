@@ -1,12 +1,10 @@
+@import "../../vendor/normalize.css";
 @import "../../blocks/header/header.scss";
 @import "../../blocks/menu/menu.scss";
 @import "../../blocks/main/main.scss";
+@import "../../blocks/footer/footer.scss";
 
 $font-stack:   'Quicksand Bold', 'Montserrat', Helvetica, sans-serif;
-
-body{
-    margin: 0px;
-}
 
 .page {
   font: 100% $font-stack;
