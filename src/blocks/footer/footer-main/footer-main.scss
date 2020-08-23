@@ -1,3 +1,14 @@
-.footer-main{
+@import "./__content-zone/footer-main__content-zone.scss";
+@import "./__description/footer-main__description.scss";
+@import "./__navigation/footer-main__navigation.scss";
+@import "./__subscribe/footer-main__subscribe.scss";
+@import "./__about/footer-main__about.scss";
+@import "./__support/footer-main__support.scss";
+@import "./__title/footer-main__title.scss";
+@import "./__footer-item/footer-main__footer-item.scss";
+@import "./__footer-items/footer-main__footer-items.scss";
 
+.footer-main{
+  display: flex;
+  justify-content: center;
 }

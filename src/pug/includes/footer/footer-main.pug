@@ -1,2 +1,36 @@
+include ../../mixins/navLink_footer
+
 .footer-main
   .footer-main__content-zone
+    .footer-main__description
+      include ../../img/logo-combine.pug
+      p.footer-main__description-text Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»
+    .footer-main__navigation
+      h3.footer-main__title.navigation__title навигация
+      ul.footer-main__footer-items
+        +navLink_footer("#","О нас")
+        +navLink_footer("#","Новости")
+        +navLink_footer("#","Служба поддержки")
+        +navLink_footer("#","Услуги")
+    .footer-main__about
+      h3.footer-main__title.about__title о нас
+      ul.footer-main__footer-items
+        +navLink_footer("#","О сервисе")
+        +navLink_footer("#","Наша команда")
+        +navLink_footer("#","Вакансии")
+        +navLink_footer("#","Инвесторы")
+    .footer-main__support
+      h3.footer-main__title.support__title служба поддержки
+      ul.footer-main__footer-items
+        +navLink_footer("#","Соглашения")
+        +navLink_footer("#","Сообщества")
+        +navLink_footer("#","Связь с нами")
+    .footer-main__subscribe
+      h3.footer-main__title.subscribe__title подписка
+      p.subscribe__text Получайте специальные предложения и новости сервиса
+      form.subscribe__form-email
+          input(type="email" placeholder="Email")
+          a(href="#")
+            include ../../img/arrow_forward_violet.pug
+
+
