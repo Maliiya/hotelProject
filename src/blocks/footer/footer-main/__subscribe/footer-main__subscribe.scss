@@ -1,3 +1,6 @@
-.footer-main__subscribe{
+@import "./__arrow_forward-link/form-email__arrow_forward-link.scss";
+@import "./__text/subscribe__text.scss";
 
+.footer-main__subscribe{
+  max-width: 260px;
 }

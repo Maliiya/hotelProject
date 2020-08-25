@@ -1,3 +1,8 @@
-.footer-bottom{
+@import "./__content-zone/footer-bottom__content-zone.scss";
+@import "./__social-icons/footer-bottom__social-icons.scss";
 
+.footer-bottom{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -1,10 +1,9 @@
 @import "../../../../mixins/montserrat-normal.scss";
 
-
-.footer-main__description-text{
+.subscribe__text{
   @include montserrat-normal;
-  margin:0;
-  line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
-  max-width: 289px;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 210px;
 }
