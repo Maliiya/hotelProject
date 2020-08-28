@@ -1,7 +1,7 @@
 {
   "name": "hotel-project",
   "version": "0.0.1",
-  "description": "Project, service where you can find hotel",
+  "description": "Project, service where you can find hotel rooms",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",

@@ -10,6 +10,7 @@ const isDev = process.env.NODE_ENV === "development";
 module.exports = {
   entry: {
     main: "./src/pages/main/script.js",
+    search: "./src/pages/search/search.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -79,6 +80,15 @@ module.exports = {
       template: "./src/index.pug",
       filename: "index.html",
       chunks: ["main"],
+      minify: {
+        collapseWhitespace: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: "./src/pages/search/search.pug",
+      filename: "search.html",
+      chunks: ["search"],
       minify: {
         collapseWhitespace: true,
       },
