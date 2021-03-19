@@ -93,7 +93,7 @@ module.exports = {
         collapseWhitespace: true,
       },
     }),
-    new FaviconsWebpackPlugin('./src/images/logo.png'),
+    // new FaviconsWebpackPlugin('./src/images/logo.png'),
 
     new webpack.DefinePlugin({
       NODE_ENV: JSON.stringify(process.env.NODE_ENV),

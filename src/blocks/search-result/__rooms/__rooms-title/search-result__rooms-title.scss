@@ -1,0 +1,11 @@
+@import "../../../mixins/quicksan-bold.scss";
+
+
+.search-result__rooms-title{
+  @include quicksan-bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+

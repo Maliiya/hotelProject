@@ -1,0 +1,8 @@
+@import "./__options/search-result__options.scss";
+@import "./__rooms/search-result__rooms.scss";
+
+.search-result{
+  padding: 140px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,6 +1,6 @@
 # hotel-project
 
-https://Maliiya.github.io/hotel-project/
+https://feihoa.github.io/hotel-project/
 
 Сайт состоит из трех страниц:
 

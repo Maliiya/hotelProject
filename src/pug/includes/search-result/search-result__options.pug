@@ -16,19 +16,20 @@
         input(type="range" min="1" max="100" value="50").search-field__input.slider
       p.search-field__text-side Стоимость за сутки пребывания в номере
       label.search-field__text Checkbox Buttons
-        label Можно курить
-          input(type="checkbox").search-field__input-checkbox
-        label Можно с питомцами
-          input(type="checkbox").search-field__input-checkbox
-        label Можно пригласить гостей (до 10 человек)
-          input(type="checkbox").search-field__input-checkbox
+        input(type="checkbox").search-result__options-checkbox
+        label.search-result__options-checkbox-label Можно курить
+        input(type="checkbox").search-result__options-checkbox
+        label.search-result__options-checkbox-label Можно с питомцами
+        input(type="checkbox").search-result__options-checkbox
+        label.search-result__options-checkbox-label Можно пригласить гостей (до 10 человек)
       label.search-field__text доступность
         label.search-field__text Широкий коридор
-        label.search-field__text-side Ширина коридоров в номере не менее 91 см.
-          input(type="checkbox").search-field__input-checkbox
+                 input(type="checkbox").search-result__options-checkbox
+                 label.search-field__text-side Ширина коридоров в номере не менее 91 см.
+
         label.search-field__text Помощник для инвалидов
         label.search-field__text-side На 1 этаже вас встретит специалист  и проводит до номера.
-          input(type="checkbox").search-field__input-checkbox
+          input(type="checkbox").search-result__options-checkbox
       label.search-field__text удобства номера
         select(type="number").search-field__input
           option(disabled) Взрослые
