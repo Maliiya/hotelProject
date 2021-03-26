@@ -6,6 +6,9 @@ const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 const webpack = require("webpack");
 const isDev = process.env.NODE_ENV === "development";
+const { JSDOM } = require( "jsdom" );
+const { window } = new JSDOM( "" );
+const $ = require( "jquery" )( window );
 
 module.exports = {
   entry: {
